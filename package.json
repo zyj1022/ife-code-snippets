@@ -1,0 +1,51 @@
+{
+    "name": "ife-code-snippets",
+    "displayName": "iFE Code Snippets",
+    "description": "Self-use Daily React and JS&TS snippets",
+    "version": "0.0.1",
+    "icon": "assets/icon.png",
+    "maintainers": [
+     "ZhiKing <zyj10222@126.com>"
+    ],
+    "publisher": "ZhiKing",
+    "keywords": [
+        "React",
+        "Hooks",
+        "React JS",
+        "React TS",
+        "React Snippets",
+        "Javascript",
+        "Typescript"
+    ],
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "homepage": "https://github.com/zyj1022/ife-code-snippets/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zyj1022/ife-code-snippets.git"
+    },    
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
